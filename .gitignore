@@ -1,15 +1,29 @@
-docs/*
-!docs/README.md
-test/message.txt
-test/testbootstrap.php
-build/
-vendor/
-*.pem
-composer.lock
-.phpcs.xml
-phpcs.xml
-.phpcs-cache
-/.rnd
-test/PHPMailerTest.php*nonexistent_file.txt
-phpunit.xml
-/.phpunit.result.cache
+# Mac
+.DS_Store
+
+# Intellij
+*.iml
+*.ipr
+*.iws
+.idea
+*.eml
+.shelf
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Gradle & builds
+build
+build-cache
+target
+out
+.gradle
+classes
+.gradletasknamecache
+*.log
+
+# Used to check reproducibility of Mockito jars
+checksums/
