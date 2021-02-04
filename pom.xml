@@ -777,11 +777,6 @@
         </configuration>
       </plugin>
       <plugin>
-      	<groupId>org.codehaus.mojo</groupId>
-		<artifactId>findbugs-maven-plugin</artifactId>
-		<version>3.0.1</version>
-      </plugin>
-      <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
         <dependencies>
@@ -828,6 +823,11 @@
         <configuration>
           <targetJdk>${maven.compiler.target}</targetJdk>
         </configuration>
+      </plugin>
+      <plugin>
+      	<groupId>org.codehaus.mojo</groupId>
+		<artifactId>findbugs-maven-plugin</artifactId>
+		<version>3.0.1</version>
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
