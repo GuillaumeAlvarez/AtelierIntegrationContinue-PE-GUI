@@ -1,29 +1,20 @@
-# Mac
-.DS_Store
+# Maven build files
+target
+*.log
+maven-eclipse.xml
+build.properties
+site-content
+*~
 
-# Intellij
+# IntelliJ IDEA files
+.idea
+.iws
 *.iml
 *.ipr
-*.iws
-.idea
-*.eml
-.shelf
 
-# Eclipse
+# Eclipse files
+.settings
 .classpath
 .project
-.settings/
-bin/
-
-# Gradle & builds
-build
-build-cache
-target
-out
-.gradle
-classes
-.gradletasknamecache
-*.log
-
-# Used to check reproducibility of Mockito jars
-checksums/
+.externalToolBuilders
+.checkstyle
