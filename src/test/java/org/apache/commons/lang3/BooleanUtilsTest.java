@@ -98,8 +98,8 @@ public class BooleanUtilsTest {
 
 	@Test
 	public void test_toBoolean_int_int_int() {
-		assertTrue(BooleanUtils.toBoolean(7, 6, 7));
-		assertFalse(BooleanUtils.toBoolean(6, 6, 7));
+		assertTrue(BooleanUtils.toBoolean(6, 6, 7));
+		assertFalse(BooleanUtils.toBoolean(7, 6, 7));
 	}
 
 	@Test
